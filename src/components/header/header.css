@@ -1,0 +1,35 @@
+
+.mode-toggle{
+    width: 60px;
+    height: 30px;
+    border: 1px solid lightgray;
+}
+.dark-btn{
+    background-color: black;
+}
+.dark-btn::after{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-color: rgb(169, 169, 169);
+    border-radius: 5px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+.light-btn{
+    background-color: white;
+}
+.light-btn::after{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-color: rgb(169, 169, 169);
+    border-radius: 5px;
+    position: absolute;
+    top: 3px;
+    right: 33px;
+}
+.nav-link{
+    color: none;
+}
