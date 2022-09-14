@@ -16,6 +16,7 @@
     position: absolute;
     top: 3px;
     right: 3px;
+    transition: right 0.25s ease-in-out;
 }
 .light-btn{
     background-color: white;
@@ -29,6 +30,7 @@
     position: absolute;
     top: 3px;
     right: 33px;
+    transition: right 0.25s ease-in-out;
 }
 .nav-link{
     color: none;
