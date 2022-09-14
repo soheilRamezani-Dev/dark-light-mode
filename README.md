@@ -7,6 +7,7 @@ at first if your operation system is in light mode this page will be on lightmod
 but you can change mode with button on top of screen.
 at first i wanted to use javascript listener if user change mode of operation system automaticlly page mode has been change.
 but i think this feature bother users because user can change mode with button.
+if you want when user chose dark and close browser but when comes back theme is dark we can use local storage instead of useState. in this situation we dont need to context.
 
 ## tech
 
